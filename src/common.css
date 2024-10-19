@@ -1,0 +1,26 @@
+.form-box-shadow {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+
+.from-input-p {
+    font-weight: 600;
+    font-size: 17px
+}
+
+.loader {
+	border: .2em solid currentcolor;
+	border-bottom-color: transparent;
+	border-radius: 50%;
+	animation: 1s loader linear infinite;
+	position: relative;
+}
+
+@keyframes loader {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
